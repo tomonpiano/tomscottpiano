@@ -149,9 +149,15 @@ nav ul li{
     margin-top: 1rem;
   }
 
+  .table {
+    font-size: 8pt;
+  }
+
   #bio{
     flex-direction: column;
   }
+
+
 
 
 }
