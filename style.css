@@ -136,6 +136,7 @@ nav ul li{
   }
 
   .portrait{
+    float: left;
     margin: 0.5rem;
     width: 100px;
   }
@@ -154,6 +155,8 @@ nav ul li{
   }
 
   #bio{
+    display: inline;
+    width: auto;
     flex-direction: column;
   }
 
