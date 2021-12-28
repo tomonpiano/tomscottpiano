@@ -24,15 +24,23 @@
       </nav>
     </div>
     <div class="mainContent">
-      <div class="block card">
+      <div class="block card col">
         <form>
-          <label for="name">Name:</label>
-          <input name="name" type="text"/><br/><br/>
-          <label for="email">Email:</label>
-          <input name="email" type="email"/><br/><br/>
-          <label for="name">Message:</label>
-          <textarea name="message"></textarea><br/><br/>
-          <input type="submit"/>
+          <div class="row formfield">
+            <label for="name">Name:</label>
+            <input name="name" type="text"/>
+          </div>
+          <div class="row formfield">
+            <label for="email">Email:</label>
+            <input name="email" type="email"/>
+          </div>
+          <div class="row formfield">
+            <label for="name">Message:</label>
+            <textarea name="message"></textarea>
+          </div>
+          <div class="formfield">
+            <input type="submit"/>
+          </div>
           <div>
             <p id="result-text"></p>
           </div>

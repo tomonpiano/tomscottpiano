@@ -29,6 +29,16 @@ th, td {
   align-items: center;
 }
 
+label {
+  min-width: 100px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.formfield {
+  padding-top: 10px;
+}
+
 .container {
   width: 100vw;
   display: flex;
@@ -110,6 +120,10 @@ nav ul li{
   margin-left: 1.5rem;
 }
 
+.formfield {
+  width: 60%
+}
+
 .logo {
   width: 200px;
 }
@@ -128,6 +142,7 @@ nav ul li{
 .quote {
   font-style: italic;
 }
+
 
 @media screen and (max-width:600px){
   .card_container{
