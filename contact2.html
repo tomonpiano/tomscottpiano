@@ -1,11 +1,4 @@
-<h2>Contact Us</h2>
 <form>
-  <label for="name">Name:</label>
-  <input name="name" type="text"/><br/><br/>
-  <label for="email">Email:</label>
-  <input name="email" type="email"/><br/><br/>
-  <label for="name">Message:</label>
-  <textarea name="message"></textarea><br/><br/>
   <input type="submit"/>
   <div>
     <p id="result-text"></p>
@@ -17,7 +10,7 @@ const form = document.querySelector("form");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const endpoint =
-    "https://rdey2uwk77.execute-api.eu-west-2.amazonaws.com/sendContactEmail";
+    "https://rdey2uwk77.execute-api.eu-west-2.amazonaws.com/simpleEmail";
 
   const requestOptions = {
     method: "POST",
@@ -40,6 +33,5 @@ form.addEventListener("submit", (event) => {
         "An unkown error occured.";
     });
 });
-
 
 </script>
